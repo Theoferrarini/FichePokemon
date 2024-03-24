@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f01e58df3dd324f822dc47b0109a9d, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - Name: ' Spoink'
+    sprite: {fileID: 21300000, guid: 351b2c5bdb906c745bb8e6a729bc88f4, type: 2}
+    info:
+      idnumber: 325
+      Type: 7
+      category: Rebond
+      size: 0.7
+      weight: 30.6
+      caption: "Si Spoink arr\xEAtait de sauter partout, il mourrait. La perle sur
+        sa t\xEAte amplifie ses pouvoirs psychiques.  "
+      IdPokeBase: 325
+    statsBase:
+      hp: 10
+      attaque: 40
+      defense: 5
+      attaqueSpe: 4
+      defenseSpe: 5
+      vitesse: 20
+  - Name: Bulbizarre
+    sprite: {fileID: 21300000, guid: e7a4f4df67aa4c54aada692375d1b4b9, type: 2}
+    info:
+      idnumber: 1
+      Type: 13
+      category: Graine
+      size: 0.7
+      weight: 6.9
+      caption: "Au d\xE9but de sa vie, il se nourrit des nutriments accumul\xE9s
+        dans la graine sur son dos. Cela lui permet de grandir."
+      IdPokeBase: 1
+    statsBase:
+      hp: 45
+      attaque: 49
+      defense: 49
+      attaqueSpe: 65
+      defenseSpe: 65
+      vitesse: 45
+  - Name: Herbizarre
+    sprite: {fileID: 21300000, guid: 9374a11adf74cc441a4baf9356bb0291, type: 2}
+    info:
+      idnumber: 2
+      Type: 13
+      category: Graine
+      size: 1
+      weight: 13
+      caption: "Plus il s\u2019expose au soleil, plus il emmagasine d\u2019\xE9nergie,
+        ce qui permet au bourgeon sur son dos de se d\xE9velopper."
+      IdPokeBase: 1
+    statsBase:
+      hp: 120
+      attaque: 124
+      defense: 126
+      attaqueSpe: 160
+      defenseSpe: 160
+      vitesse: 120
+  - Name: Florizarre
+    sprite: {fileID: 21300000, guid: b19ddb79c73ee6e40ad6bb0352bb37ca, type: 2}
+    info:
+      idnumber: 3
+      Type: 13
+      category: Graine
+      size: 2
+      weight: 100
+      caption: "Ce Pok\xE9mon est capable de transformer la lumi\xE8re du soleil
+        en \xE9nergie. Il est donc encore plus fort en \xE9t\xE9."
+      IdPokeBase: 1
+    statsBase:
+      hp: 240
+      attaque: 246
+      defense: 249
+      attaqueSpe: 300
+      defenseSpe: 300
+      vitesse: 240
+  - Name: "Salam\xE8che"
+    sprite: {fileID: 21300000, guid: fa4f4ac1d8cc09144a124bf02cb68b5b, type: 2}
+    info:
+      idnumber: 4
+      Type: 3
+      category: "L\xE9zard"
+      size: 0.6
+      weight: 8.5
+      caption: "La flamme au bout de sa queue repr\xE9sente sa vitalit\xE9. Quand
+        Salam\xE8che n\u2019est pas au meilleur de sa forme, elle faiblit.\r\n\r\n"
+      IdPokeBase: 4
+    statsBase:
+      hp: 39
+      attaque: 52
+      defense: 43
+      attaqueSpe: 60
+      defenseSpe: 50
+      vitesse: 65
+  - Name: Reptincel
+    sprite: {fileID: 21300000, guid: a9ed27265cc26d147afe603229ea5fe7, type: 2}
+    info:
+      idnumber: 5
+      Type: 3
+      category: Flamme
+      size: 1.1
+      weight: 19
+      caption: "En agitant sa queue enflamm\xE9e, il peut \xE9lever la temp\xE9rature
+        ambiante de mani\xE8re exponentielle et ainsi tourmenter ses adversaires."
+      IdPokeBase: 7
+    statsBase:
+      hp: 116
+      attaque: 128
+      defense: 116
+      attaqueSpe: 160
+      defenseSpe: 130
+      vitesse: 160
+  - Name: Dracaufeu
+    sprite: {fileID: 21300000, guid: c2a4cee491803c14c9f37bd80ba78f7c, type: 2}
+    info:
+      idnumber: 6
+      Type: 3
+      category: Flamme
+      size: 1.7
+      weight: 90.5
+      caption: "Quand Dracaufeu s\u2019\xE9nerve r\xE9ellement, la flamme au bout
+        de sa queue devient bleue."
+      IdPokeBase: 7
+    statsBase:
+      hp: 234
+      attaque: 252
+      defense: 234
+      attaqueSpe: 327
+      defenseSpe: 255
+      vitesse: 300
+  - Name: Carapuce
+    sprite: {fileID: 21300000, guid: a88ba0dc3285c0d42aa539eb5baafaeb, type: 2}
+    info:
+      idnumber: 7
+      Type: 17
+      category: Minitortue
+      size: 0.5
+      weight: 9
+      caption: "Ce Pok\xE9mon crache une \xE9cume redoutable. Apr\xE8s sa naissance,
+        son dos gonfle et durcit pour former une carapace."
+      IdPokeBase: 7
+    statsBase:
+      hp: 44
+      attaque: 48
+      defense: 65
+      attaqueSpe: 50
+      defenseSpe: 64
+      vitesse: 43
+  - Name: Carabaffe
+    sprite: {fileID: 21300000, guid: d676972383a160248941aed3a7f1440f, type: 2}
+    info:
+      idnumber: 8
+      Type: 17
+      category: Tortue
+      size: 1
+      weight: 22.5
+      caption: "Sa longue queue touffue est un symbole de long\xE9vit\xE9. Les personnes
+        \xE2g\xE9es appr\xE9cient donc particuli\xE8rement ce Pok\xE9mon."
+      IdPokeBase: 6
+    statsBase:
+      hp: 118
+      attaque: 126
+      defense: 160
+      attaqueSpe: 130
+      defenseSpe: 160
+      vitesse: 116
